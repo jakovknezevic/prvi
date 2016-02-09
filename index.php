@@ -10,6 +10,8 @@
 <p>
     <?php
     echo('Pozdrav iz PHP-a');
+    echo('<br>');
+    echo(date('d.m.Y.'));
     ?>
 </p>
 </body>
