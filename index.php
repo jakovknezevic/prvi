@@ -3,9 +3,11 @@
 <head>
     <title>Naslov</title>
     <meta charset="UTF-8">
+    <link href="site.css" rel="stylesheet">
 </head>
 
 <body>
+<div id="main">
 <h1>Prvi</h1>
 
 <p>
@@ -21,5 +23,6 @@
     echo('Do praznika je ostalo još: <b>' . $dana_do_praznika . '</b>');
     ?>
 </p>
+</div>
 </body>
 </html>
